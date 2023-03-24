@@ -7,7 +7,7 @@ from urls_list import *
 
 url = ''
 file_name = ''
-folder = ''
+folder = r'C:\Users\Tagami\OneDrive\Documents\GitHub\ai_art_classification_model\Illust'
 res = ''
 image_class = 'Illust'
 sleep_dur = 2
@@ -19,9 +19,9 @@ def download_image_list(image_urls, url_count, folder, file_name, sleep_dur):
         while x <= total_link_list:
                 x += 1
                 url = image_urls[x]
-                image_full_name = folder + '\\' + file_name
+                image_full_name = f'{folder}\\{x}.jpeg' 
                 img_data = requests.get(url).content
-                with safe_open(image_full_name, 'wb') as handler:
+                with open(image_full_name, 'wb') as handler:
                         print(f'Downloading {url.split("/")[-1]} to {image_full_name}')
                         handler.write(img_data)
                         print(f'{file_name} downloaded')

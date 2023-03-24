@@ -26,7 +26,7 @@ def createFileList(myDir, format='.jpg'):
             names.append(name)
     return fileList, labels, names
 # load the original image
-myFileList, labels, names  = createFileList('/content/')
+myFileList, labels, names  = createFileList(r'C:\Users\Tagami\OneDrive\Documents\GitHub\ai_art_classification_model')
 i = 0
 for file in myFileList:
     print(file)
@@ -50,4 +50,6 @@ for file in myFileList:
     print(value)
     with open("aio_r_illust.csv", 'a') as f:
         writer = csv.writer(f)
+        print('a')
         writer.writerow(value)
+
