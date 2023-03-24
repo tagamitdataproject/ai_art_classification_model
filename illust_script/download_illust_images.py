@@ -3,13 +3,13 @@ import time
 import os
 import json
 import errno
-from ai_urls_list import *
+from illust_urls_list import *
 
 url = ''
-file_name = 'Ai'
-folder = r'C:\Users\Tagami\OneDrive\Documents\GitHub\ai_art_classification_model\Images\Ai'
+file_name = 'illust'
+folder = r'C:\Users\Tagami\OneDrive\Documents\GitHub\ai_art_classification_model\Images\illust'
 res = ''
-image_class = 'Ai'
+image_class = 'illust'
 sleep_dur = 2
 url_count = len(filtered_urls)
 
