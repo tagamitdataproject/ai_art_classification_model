@@ -1,0 +1,613 @@
+RESNET50
+
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/usr/local/lib/python3.9/dist-packages/torchvision/models/inception.py:43: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn(
+==================================================
+Training with GPU
+==================================================
+Epoch 1/100
+----------
+100% 48/48 [00:43<00:00,  1.11it/s]
+train Loss: 5.9669 Accuracy: 0.5453
+100% 12/12 [00:08<00:00,  1.48it/s]
+test Loss: 25.5114 Accuracy: 0.5979
+Epoch 2/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 2.0165 Accuracy: 0.5917
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.9546 Accuracy: 0.5979
+Epoch 3/100
+----------
+100% 48/48 [00:41<00:00,  1.17it/s]
+train Loss: 1.4753 Accuracy: 0.5877
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.6822 Accuracy: 0.5979
+Epoch 4/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.8118 Accuracy: 0.6282
+100% 12/12 [00:08<00:00,  1.47it/s]
+test Loss: 1.9958 Accuracy: 0.5822
+Epoch 5/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.8914 Accuracy: 0.6491
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.6116 Accuracy: 0.7363
+Epoch 6/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.6836 Accuracy: 0.6869
+100% 12/12 [00:09<00:00,  1.33it/s]
+test Loss: 0.8009 Accuracy: 0.4569
+Epoch 7/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.5952 Accuracy: 0.7182
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.6302 Accuracy: 0.6292
+Epoch 8/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.6383 Accuracy: 0.7117
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.5717 Accuracy: 0.6762
+Epoch 9/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.5558 Accuracy: 0.7423
+100% 12/12 [00:08<00:00,  1.46it/s]
+test Loss: 0.5870 Accuracy: 0.7023
+Epoch 10/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.5826 Accuracy: 0.7495
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.4947 Accuracy: 0.7728
+Epoch 11/100
+----------
+100% 48/48 [00:40<00:00,  1.18it/s]
+train Loss: 0.5595 Accuracy: 0.7489
+100% 12/12 [00:09<00:00,  1.21it/s]
+test Loss: 0.7981 Accuracy: 0.5144
+Epoch 12/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.5639 Accuracy: 0.7384
+100% 12/12 [00:08<00:00,  1.43it/s]
+test Loss: 0.7673 Accuracy: 0.6919
+Epoch 13/100
+----------
+100% 48/48 [00:41<00:00,  1.14it/s]
+train Loss: 0.5073 Accuracy: 0.7697
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 1.0996 Accuracy: 0.6005
+Epoch 14/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.5464 Accuracy: 0.7567
+100% 12/12 [00:08<00:00,  1.36it/s]
+test Loss: 0.4955 Accuracy: 0.7598
+Epoch 15/100
+----------
+100% 48/48 [00:41<00:00,  1.14it/s]
+train Loss: 0.5056 Accuracy: 0.7632
+100% 12/12 [00:08<00:00,  1.37it/s]
+test Loss: 0.5069 Accuracy: 0.7493
+Epoch 16/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.4806 Accuracy: 0.7697
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.6037 Accuracy: 0.6893
+Epoch 17/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.5124 Accuracy: 0.7586
+100% 12/12 [00:08<00:00,  1.42it/s]
+test Loss: 0.7397 Accuracy: 0.6397
+Epoch 18/100
+----------
+100% 48/48 [00:41<00:00,  1.14it/s]
+train Loss: 0.5041 Accuracy: 0.7489
+100% 12/12 [00:08<00:00,  1.34it/s]
+test Loss: 0.4799 Accuracy: 0.7624
+Epoch 19/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.4610 Accuracy: 0.7691
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.5312 Accuracy: 0.7493
+Epoch 20/100
+----------
+100% 48/48 [00:42<00:00,  1.13it/s]
+train Loss: 0.4469 Accuracy: 0.7926
+100% 12/12 [00:08<00:00,  1.44it/s]
+test Loss: 0.5311 Accuracy: 0.7258
+Epoch 21/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.4575 Accuracy: 0.7847
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.4787 Accuracy: 0.7598
+Epoch 22/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.4422 Accuracy: 0.7913
+100% 12/12 [00:09<00:00,  1.30it/s]
+test Loss: 0.5211 Accuracy: 0.7572
+Epoch 23/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.4397 Accuracy: 0.7939
+100% 12/12 [00:08<00:00,  1.46it/s]
+test Loss: 0.5814 Accuracy: 0.7023
+Epoch 24/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.4470 Accuracy: 0.7873
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.6256 Accuracy: 0.6475
+Epoch 25/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.4183 Accuracy: 0.7939
+100% 12/12 [00:08<00:00,  1.37it/s]
+test Loss: 0.4419 Accuracy: 0.8016
+Epoch 26/100
+----------
+100% 48/48 [00:42<00:00,  1.12it/s]
+train Loss: 0.4631 Accuracy: 0.7730
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.5645 Accuracy: 0.6919
+Epoch 27/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.4425 Accuracy: 0.7984
+100% 12/12 [00:09<00:00,  1.24it/s]
+test Loss: 0.4740 Accuracy: 0.7859
+Epoch 28/100
+----------
+100% 48/48 [00:42<00:00,  1.13it/s]
+train Loss: 0.4302 Accuracy: 0.8037
+100% 12/12 [00:08<00:00,  1.42it/s]
+test Loss: 0.6075 Accuracy: 0.6736
+Epoch 29/100
+----------
+100% 48/48 [00:42<00:00,  1.12it/s]
+train Loss: 0.4409 Accuracy: 0.8004
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.6534 Accuracy: 0.7441
+Epoch 30/100
+----------
+100% 48/48 [00:42<00:00,  1.12it/s]
+train Loss: 0.4547 Accuracy: 0.7893
+100% 12/12 [00:08<00:00,  1.40it/s]
+test Loss: 0.4571 Accuracy: 0.7781
+Epoch 31/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.4275 Accuracy: 0.7913
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.5003 Accuracy: 0.7520
+Epoch 32/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.4666 Accuracy: 0.7873
+100% 12/12 [00:09<00:00,  1.22it/s]
+test Loss: 0.5127 Accuracy: 0.7546
+Epoch 33/100
+----------
+100% 48/48 [00:42<00:00,  1.13it/s]
+train Loss: 0.4018 Accuracy: 0.8213
+100% 12/12 [00:08<00:00,  1.47it/s]
+test Loss: 0.4803 Accuracy: 0.7546
+Epoch 34/100
+----------
+100% 48/48 [00:42<00:00,  1.13it/s]
+train Loss: 0.4018 Accuracy: 0.8128
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.4279 Accuracy: 0.8016
+Epoch 35/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.4284 Accuracy: 0.8082
+100% 12/12 [00:09<00:00,  1.33it/s]
+test Loss: 0.4947 Accuracy: 0.7859
+Epoch 36/100
+----------
+100% 48/48 [00:42<00:00,  1.13it/s]
+train Loss: 0.3985 Accuracy: 0.8147
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.5382 Accuracy: 0.7520
+Epoch 37/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.4253 Accuracy: 0.8010
+100% 12/12 [00:09<00:00,  1.22it/s]
+test Loss: 0.4374 Accuracy: 0.7963
+Epoch 38/100
+----------
+100% 48/48 [00:42<00:00,  1.13it/s]
+train Loss: 0.4163 Accuracy: 0.8010
+100% 12/12 [00:08<00:00,  1.47it/s]
+test Loss: 0.4722 Accuracy: 0.7859
+Epoch 39/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.4081 Accuracy: 0.8128
+100% 12/12 [00:09<00:00,  1.22it/s]
+test Loss: 0.5624 Accuracy: 0.7232
+Epoch 40/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3939 Accuracy: 0.8239
+100% 12/12 [00:09<00:00,  1.31it/s]
+test Loss: 0.4839 Accuracy: 0.7676
+Epoch 41/100
+----------
+100% 48/48 [00:41<00:00,  1.14it/s]
+train Loss: 0.4092 Accuracy: 0.8056
+100% 12/12 [00:08<00:00,  1.37it/s]
+test Loss: 0.4541 Accuracy: 0.7911
+Epoch 42/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3676 Accuracy: 0.8428
+100% 12/12 [00:09<00:00,  1.24it/s]
+test Loss: 0.4575 Accuracy: 0.7833
+Epoch 43/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3776 Accuracy: 0.8382
+100% 12/12 [00:08<00:00,  1.42it/s]
+test Loss: 0.4658 Accuracy: 0.7859
+Epoch 44/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.3922 Accuracy: 0.8311
+100% 12/12 [00:09<00:00,  1.32it/s]
+test Loss: 0.3961 Accuracy: 0.8198
+Epoch 45/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3758 Accuracy: 0.8350
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.4312 Accuracy: 0.8225
+Epoch 46/100
+----------
+100% 48/48 [00:41<00:00,  1.14it/s]
+train Loss: 0.4165 Accuracy: 0.8193
+100% 12/12 [00:08<00:00,  1.44it/s]
+test Loss: 0.5446 Accuracy: 0.7232
+Epoch 47/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3692 Accuracy: 0.8376
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.4454 Accuracy: 0.7937
+Epoch 48/100
+----------
+100% 48/48 [00:41<00:00,  1.17it/s]
+train Loss: 0.3732 Accuracy: 0.8395
+100% 12/12 [00:09<00:00,  1.28it/s]
+test Loss: 0.3973 Accuracy: 0.8251
+Epoch 49/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.3797 Accuracy: 0.8324
+100% 12/12 [00:08<00:00,  1.40it/s]
+test Loss: 0.3997 Accuracy: 0.8198
+Epoch 50/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3694 Accuracy: 0.8369
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.4108 Accuracy: 0.8120
+Epoch 51/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3774 Accuracy: 0.8324
+100% 12/12 [00:08<00:00,  1.39it/s]
+test Loss: 0.3895 Accuracy: 0.8146
+Epoch 52/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.3566 Accuracy: 0.8493
+100% 12/12 [00:08<00:00,  1.37it/s]
+test Loss: 0.4044 Accuracy: 0.8355
+Epoch 53/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3673 Accuracy: 0.8311
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.3907 Accuracy: 0.8251
+Epoch 54/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3592 Accuracy: 0.8402
+100% 12/12 [00:08<00:00,  1.44it/s]
+test Loss: 0.4155 Accuracy: 0.7990
+Epoch 55/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3665 Accuracy: 0.8297
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.3939 Accuracy: 0.8277
+Epoch 56/100
+----------
+100% 48/48 [00:41<00:00,  1.17it/s]
+train Loss: 0.3767 Accuracy: 0.8395
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.4115 Accuracy: 0.8303
+Epoch 57/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3361 Accuracy: 0.8500
+100% 12/12 [00:08<00:00,  1.46it/s]
+test Loss: 0.4731 Accuracy: 0.7781
+Epoch 58/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3505 Accuracy: 0.8487
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.4086 Accuracy: 0.8172
+Epoch 59/100
+----------
+100% 48/48 [00:40<00:00,  1.18it/s]
+train Loss: 0.3738 Accuracy: 0.8408
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.4717 Accuracy: 0.7676
+Epoch 60/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3607 Accuracy: 0.8317
+100% 12/12 [00:08<00:00,  1.49it/s]
+test Loss: 0.4855 Accuracy: 0.8068
+Epoch 61/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3568 Accuracy: 0.8369
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.4124 Accuracy: 0.8198
+Epoch 62/100
+----------
+100% 48/48 [00:40<00:00,  1.19it/s]
+train Loss: 0.3783 Accuracy: 0.8330
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.4524 Accuracy: 0.7676
+Epoch 63/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3803 Accuracy: 0.8278
+100% 12/12 [00:08<00:00,  1.46it/s]
+test Loss: 0.4014 Accuracy: 0.8068
+Epoch 64/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3578 Accuracy: 0.8428
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.4225 Accuracy: 0.7859
+Epoch 65/100
+----------
+100% 48/48 [00:40<00:00,  1.19it/s]
+train Loss: 0.3734 Accuracy: 0.8395
+100% 12/12 [00:09<00:00,  1.24it/s]
+test Loss: 0.4049 Accuracy: 0.8225
+Epoch 66/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3606 Accuracy: 0.8382
+100% 12/12 [00:08<00:00,  1.48it/s]
+test Loss: 0.5040 Accuracy: 0.7937
+Epoch 67/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3526 Accuracy: 0.8421
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.3907 Accuracy: 0.8172
+Epoch 68/100
+----------
+100% 48/48 [00:40<00:00,  1.19it/s]
+train Loss: 0.3574 Accuracy: 0.8402
+100% 12/12 [00:09<00:00,  1.28it/s]
+test Loss: 0.3827 Accuracy: 0.8042
+Epoch 69/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3536 Accuracy: 0.8526
+100% 12/12 [00:08<00:00,  1.49it/s]
+test Loss: 0.4139 Accuracy: 0.8172
+Epoch 70/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3430 Accuracy: 0.8467
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.4096 Accuracy: 0.8251
+Epoch 71/100
+----------
+100% 48/48 [00:40<00:00,  1.19it/s]
+train Loss: 0.3384 Accuracy: 0.8467
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.3702 Accuracy: 0.8198
+Epoch 72/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3462 Accuracy: 0.8441
+100% 12/12 [00:08<00:00,  1.49it/s]
+test Loss: 0.4185 Accuracy: 0.8068
+Epoch 73/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3429 Accuracy: 0.8487
+100% 12/12 [00:09<00:00,  1.24it/s]
+test Loss: 0.5338 Accuracy: 0.7572
+Epoch 74/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3408 Accuracy: 0.8624
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.4358 Accuracy: 0.7833
+Epoch 75/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3289 Accuracy: 0.8617
+100% 12/12 [00:08<00:00,  1.41it/s]
+test Loss: 0.4301 Accuracy: 0.8042
+Epoch 76/100
+----------
+100% 48/48 [00:41<00:00,  1.17it/s]
+train Loss: 0.3330 Accuracy: 0.8591
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.4910 Accuracy: 0.7676
+Epoch 77/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3369 Accuracy: 0.8500
+100% 12/12 [00:08<00:00,  1.40it/s]
+test Loss: 0.4889 Accuracy: 0.8042
+Epoch 78/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3392 Accuracy: 0.8480
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.4089 Accuracy: 0.8016
+Epoch 79/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3524 Accuracy: 0.8513
+100% 12/12 [00:09<00:00,  1.24it/s]
+test Loss: 0.4076 Accuracy: 0.8042
+Epoch 80/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3483 Accuracy: 0.8402
+100% 12/12 [00:08<00:00,  1.46it/s]
+test Loss: 0.3818 Accuracy: 0.8251
+Epoch 81/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3289 Accuracy: 0.8637
+100% 12/12 [00:09<00:00,  1.25it/s]
+test Loss: 0.3936 Accuracy: 0.8225
+Epoch 82/100
+----------
+100% 48/48 [00:40<00:00,  1.17it/s]
+train Loss: 0.3689 Accuracy: 0.8363
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.5049 Accuracy: 0.7859
+Epoch 83/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.3337 Accuracy: 0.8598
+100% 12/12 [00:08<00:00,  1.39it/s]
+test Loss: 0.4469 Accuracy: 0.7911
+Epoch 84/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3308 Accuracy: 0.8539
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.3900 Accuracy: 0.8172
+Epoch 85/100
+----------
+100% 48/48 [00:41<00:00,  1.15it/s]
+train Loss: 0.3373 Accuracy: 0.8532
+100% 12/12 [00:08<00:00,  1.45it/s]
+test Loss: 0.3843 Accuracy: 0.8094
+Epoch 86/100
+----------
+100% 48/48 [00:42<00:00,  1.14it/s]
+train Loss: 0.3217 Accuracy: 0.8558
+100% 12/12 [00:09<00:00,  1.31it/s]
+test Loss: 0.5392 Accuracy: 0.7728
+Epoch 87/100
+----------
+100% 48/48 [00:40<00:00,  1.18it/s]
+train Loss: 0.3390 Accuracy: 0.8513
+100% 12/12 [00:09<00:00,  1.23it/s]
+test Loss: 0.4083 Accuracy: 0.8016
+Epoch 88/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3068 Accuracy: 0.8702
+100% 12/12 [00:08<00:00,  1.48it/s]
+test Loss: 0.3821 Accuracy: 0.8277
+Epoch 89/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3425 Accuracy: 0.8565
+100% 12/12 [00:09<00:00,  1.28it/s]
+test Loss: 0.3927 Accuracy: 0.8355
+Epoch 90/100
+----------
+100% 48/48 [00:40<00:00,  1.19it/s]
+train Loss: 0.3448 Accuracy: 0.8493
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.3867 Accuracy: 0.8172
+Epoch 91/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3148 Accuracy: 0.8617
+100% 12/12 [00:08<00:00,  1.48it/s]
+test Loss: 0.3732 Accuracy: 0.8303
+Epoch 92/100
+----------
+100% 48/48 [00:41<00:00,  1.17it/s]
+train Loss: 0.3238 Accuracy: 0.8558
+100% 12/12 [00:09<00:00,  1.29it/s]
+test Loss: 0.3746 Accuracy: 0.8120
+Epoch 93/100
+----------
+100% 48/48 [00:39<00:00,  1.20it/s]
+train Loss: 0.3240 Accuracy: 0.8565
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.4035 Accuracy: 0.8146
+Epoch 94/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3295 Accuracy: 0.8578
+100% 12/12 [00:08<00:00,  1.47it/s]
+test Loss: 0.4101 Accuracy: 0.8198
+Epoch 95/100
+----------
+100% 48/48 [00:41<00:00,  1.16it/s]
+train Loss: 0.3361 Accuracy: 0.8611
+100% 12/12 [00:09<00:00,  1.32it/s]
+test Loss: 0.4076 Accuracy: 0.7937
+Epoch 96/100
+----------
+100% 48/48 [00:40<00:00,  1.19it/s]
+train Loss: 0.3135 Accuracy: 0.8682
+100% 12/12 [00:09<00:00,  1.27it/s]
+test Loss: 0.3642 Accuracy: 0.8355
+Epoch 97/100
+----------
+100% 48/48 [00:40<00:00,  1.17it/s]
+train Loss: 0.3173 Accuracy: 0.8558
+100% 12/12 [00:08<00:00,  1.48it/s]
+test Loss: 0.3796 Accuracy: 0.8146
+Epoch 98/100
+----------
+100% 48/48 [00:40<00:00,  1.17it/s]
+train Loss: 0.3184 Accuracy: 0.8761
+100% 12/12 [00:08<00:00,  1.34it/s]
+test Loss: 0.6536 Accuracy: 0.7363
+Epoch 99/100
+----------
+100% 48/48 [00:40<00:00,  1.18it/s]
+train Loss: 0.3469 Accuracy: 0.8480
+100% 12/12 [00:09<00:00,  1.26it/s]
+test Loss: 0.3523 Accuracy: 0.8303
+Epoch 100/100
+----------
+100% 48/48 [00:41<00:00,  1.17it/s]
+train Loss: 0.3289 Accuracy: 0.8604
+100% 12/12 [00:08<00:00,  1.45it/s]
+test Loss: 0.3955 Accuracy: 0.8042
+Training completed in 84m 28s
+Best test accuracy: 0.8355
